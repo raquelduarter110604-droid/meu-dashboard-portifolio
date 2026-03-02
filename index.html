@@ -1,14 +1,47 @@
-<div style="white-space: nowrap; overflow: hidden; height: 40px; display: flex; align-items: center; font-size: 16px;">
-  <div style="display: inline-block; animation: scroll 40s linear infinite;">
-    <span style="padding-right: 50px;">
-      Seja aquilo que você admira • De graça damos o que de graça recebemos • Chungbunhada • Você não é um monstro por sentir emoções • Passos firmes são dados com pernas bambas • Se permita brilhar sem o desejo de ser vista • Em respeito ao que você se tornou, não se torne o lugar que você se feriu • Seja o adulto que você precisou quando era criança • Lembrai-vos de que sois os guardiões da beleza no mundo • Honestidade sem bondade é arrogância • O julgamento é uma confissão • Seja aquilo que você admira • Go big or go home • Não devorar alguém quando erra • Ceder: escolher conscientemente as batalhas que importam • É preciso voltar na cabana • Não transformo amor em luto antecipado — escolho gratidão viva • Atrair, não perseguir
-    </span>
-  </div>
-</div>
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Letreiro Raquel</title>
 <style>
+body {
+  margin: 0;
+  background: transparent;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 12px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.track {
+  display: inline-block;
+  animation: scroll 45s linear infinite;
+}
+
+.track span {
+  padding-right: 50px;
+}
+
 @keyframes scroll {
-  0% { transform: translateX(0); }
+  0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
 </style>
+</head>
+
+<body>
+<div class="marquee">
+  <div class="track">
+    <span>
+      Seja aquilo que você admira • De graça damos o que de graça recebemos • Chungbunhada • Você não é um monstro por sentir emoções • Passos firmes são dados com pernas bambas • Se permita brilhar sem o desejo de ser vista • Em respeito ao que você se tornou, não se torne o lugar que você se feriu • Seja o adulto que você precisou quando era criança • Lembrai-vos de que sois os guardiões da beleza no mundo • Honestidade sem bondade é arrogância • O julgamento é uma confissão • Go big or go home • Não devorar alguém quando erra • Ceder: escolher conscientemente as batalhas que importam • É preciso voltar na cabana • Não transformo amor em luto antecipado — escolho gratidão viva • Atrair, não perseguir
+    </span>
+  </div>
+</div>
+</body>
+</html>
